@@ -164,12 +164,9 @@ const inventory = [
   },
 ];
 
-const expensiveInventory = inventory.filter((stuff) => {
-  //could be shorter
-  if (stuff.price > 300) {
-    return stuff;
-  }
-});
+const expensiveInventory = inventory
+  .filter((item) => item.price > 300)
+  .map((item) => item.name);
 console.log(expensiveInventory);
 
 const sentenceElements = [
