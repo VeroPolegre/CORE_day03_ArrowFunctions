@@ -18,7 +18,7 @@ Create an array with people over 25 years old and display it through the console
 
 Create an array with people starting with J.
 
-3.Map
+3. Map
 
 Using the array from before, create an array with people over 25 years old and display it in the console.
 
@@ -28,7 +28,7 @@ Given the following array, create another one that is the result of raising each
 
 const numbers = [ 4, 5, 6, 7, 8, 9, 10];
 
-4.Filter
+4. Filter
 
 Create a second array that returns the odd ones
 
